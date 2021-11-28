@@ -11,7 +11,6 @@ const isdminMiddleware=(req,res,next)=>{
     }
 }
 app.use(isdminMiddleware)
-app.use(express.json());
 
 app.use(user_Product_Routes );
 
